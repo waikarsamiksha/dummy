@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parent{
+            height: 600px;
+            width: 900px;
+            margin: 20px 20px 20px 20px;
+            display:flex ;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .child1{
+            height: 600px;
+            width: 400px;
+            background-color: rgb(0, 119, 255);
+            border: 2px solid;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+            justify-content: space-between;
+            text-align: left;
+        }
+        #a{
+            font-size: 24px;
+            line-height: 20px;
+        }
+        .child2{
+            height: 600px;
+            width:500px;
+            background-color: white;
+            box-shadow: 0px 2px 10px rgba(0,0,0,.2) ;
+            padding: 20px;
+            border: none;
+        }
+        input{
+            outline: none;
+            border: none;
+            border-bottom: 2px solid blue;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 30px;
+            font-size: 16px;
+        }
+        .text{
+            color: gray;
+            font-size: 14px;
+        }
+        
+        button{
+            height: 50px;
+            width: 100%;
+            background-color: rgb(251, 113, 1);
+            color: white;
+            border: none;
+            font-size: 16px;
+        }
+        #b{
+            color: blue;
+            font-size: 18px;
+            margin-top: auto;
+            text-align: center;
+            text-decoration: none;
+        }
+            
+        
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="child1">
+            <div>
+                <br><br>
+            <h1>Login</h1>
+            <p id="a">Get access to your Order,<br><br>Wishlist and Recommendations </p>
+            </div>
+            <img src="./login_img_c4a81e.png" alt="">
+        </div>
+        <div class="child2">
+            <input type="text" name="" id="" placeholder="Enter Email/Mobile number*" required>
+            <p class="text">
+                By continuing, you agree to Flipkart's
+                <a href="#">Terms of use </a>and 
+                <a href="#">Privacy  policy</a>
+            </p>
+            <button>Request OTP</button>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <a id="b" href="./signup.html" >New to flipkart? Create an account</a>
+        </div>
+    </div>
+</body>
+</html>
