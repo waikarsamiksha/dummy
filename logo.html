@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>insta logo</title>
+    <style>
+        *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    background:white;
+}
+.logo{
+    width:350px;
+    height:350px;
+    border-radius:70px;
+    background:linear-gradient(45deg,#f9ce34,#ee2a7b,#6228d7,#4f5bd5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.square{
+    width:210px;
+    height:210px;
+    border:15px solid white;
+    border-radius:50px;
+    position:relative;
+}
+.circle{
+    width:90px;
+    height:90px;
+    border:15px solid white;
+    border-radius:50%;
+    position:absolute;
+    top:45px;
+    left:45px;
+}
+.dot{
+    width:25px;
+    height:25px;
+    background:white;
+    border-radius:50%;
+    position:absolute;
+    top:25px;
+    right:25px;
+}
+    </style>
+</head>
+<body>
+    <div class="logo">
+    <div class="square">
+        <div class="circle"></div>
+        <div class="dot"></div>
+    </div>
+</div>
+</body>
+</html>
